@@ -1,0 +1,78 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+   
+}
+
+.container h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container input{
+    width: 70%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.container .btn{
+    width: 20%;
+    padding: 15px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.container .tasks{
+    width: 92%;
+    background-color: orange;
+    padding: 15px 20px;
+    border-radius: 10px;
+    
+}
+
+.container .tasks li{
+    list-style: none;
+    background-color: #242424;
+    margin: 20px 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.container .tasks li button{
+    border: none;
+    border-radius: 20px;
+    padding: 7px 12px;
+    font-size: 1rem;
+    background-color: orange;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.container .noTasks{
+    background-color: orange;
+    width: 92%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: #242424;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container .error{
+    background-color: rgb(230, 95, 95);
+    width: 92%;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #242424;
+}
